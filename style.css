@@ -3,13 +3,30 @@ body {
 }
 
 header {
-height: 6vh;
-background-color: cadetblue;
-display: flex;
-justify-content: space-between;
-align-items: center;
+    height: 6vh;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
 header div {
-    font-size: 2vh;
+    font-size: 2.5vh;
+    width: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+
+main {
+    max-width: none;
+    height: 1125px;
+    background-color: honeydew;
+    font-size: 2.5vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main div {
+    background-color: greenyellow;
 
 }
