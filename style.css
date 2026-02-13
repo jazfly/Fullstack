@@ -24,9 +24,16 @@ main {
     font-size: 2.5vh;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
+
 }
 
 main div {
-    background-color: greenyellow;
+    margin:2vh ;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    width: 25vh;
+    height: 400px;
 
 }
