@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+}
+
+header {
+height: 6vh;
+background-color: cadetblue;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+header div {
+    font-size: 2vh;
+
+}
