@@ -1,4 +1,4 @@
-body {
+* {
     margin: 0;
 }
 
@@ -11,15 +11,21 @@ header {
 }
 
 header div {
-    font-size: 2.5vh;
+    font-size: 3vh;
     width: 300px;
+    padding-top: 1vh;
     display: flex;
     justify-content: space-around;
 }
 
-main {
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+.index {
     max-width: none;
-    height: 1150px;
+    height: 160vh;
     background-color: honeydew;
     font-size: 2.5vh;
     display: flex;
@@ -42,4 +48,38 @@ main {
 .example_foto h1 {
     font-size: 4vh;
     font-family: 'Times New Roman', Times, serif;
+}
+
+.log_in {
+    max-width: none;
+    height: 94vh;
+    background-color: honeydew;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square {
+    background-color: #80c43a;
+    width: 130vh;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.discover {
+    background-image: url();
+    background-repeat: no-repeat;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.sentral_scrolldown {
+    background-color: blue;
+    width: 130vh;
+    max-height: max-content;
+    display: flex;
+    flex-wrap: wrap;
 }
